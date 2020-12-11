@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Idham Dicoding2</string>
+    <string name="username">Username</string>
+    <string name="name">Name</string>
+    <string name="colon" translatable="false">:</string>
+    <string name="location"> %s </string>
+    <string name="repository"> Repository : %s </string>
+    <string name="company"> Company : %s </string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="avatar">Avatar</string>
+    <string name="about_me">About Me</string>
+    <string name="change_language_settings">Change Language Settings</string>
+</resources>

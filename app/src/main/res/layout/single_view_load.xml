@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_margin="4dp"
+    android:padding="6dp"
+    android:background="#FFFFFF"
+    android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/shape"
+        android:id="@+id/image_single_view"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="15dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <View
+            android:layout_width="200dp"
+            android:layout_height="20dp"
+            android:background="@drawable/shimerbg"
+            android:layout_marginBottom="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <View
+
+            android:layout_width="175dp"
+            android:background="@drawable/shimerbg"
+            android:layout_height="15dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+        <View
+
+            android:layout_width="150dp"
+            android:background="@drawable/shimerbg"
+            android:layout_marginTop="10dp"
+            android:layout_height="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+
+    </LinearLayout>
+</LinearLayout>
